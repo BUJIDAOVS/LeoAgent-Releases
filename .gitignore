@@ -1,0 +1,9 @@
+# 本项目不存放 APK —— 安装包走 GitHub Releases 附件。
+#
+# ⚠️ apk 超过 100 MB 时 git push 会被 GitHub 直接拒绝（单文件硬限制），
+# 而且一旦进了历史就永久占体积。所以这里明确忽略。
+*.apk
+*.aab
+*.apks
+
+.DS_Store
